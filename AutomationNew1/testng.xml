@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/saera/AutomationNew1/src">
+        <classes>
+            <class name="TestNG.MoMediaHw">
+                <methods>
+                    <include name="movieDetails"/>
+                    <include name="contactUs"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
